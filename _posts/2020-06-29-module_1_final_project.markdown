@@ -1,11 +1,11 @@
 ---
 layout: post
-title:      "Module 1 Final Project"
-date:       2020-06-29 18:53:37 +0000
+title:      "Pandas Data Cleaning Techniques"
+date:       2020-06-29 14:53:37 -0400
 permalink:  module_1_final_project
 ---
 
-### Pandas Data Cleaning Techniques
+
    This project was the first truly exploratory data science work I took on and could feel overwhelming at times. I found myself digging through provided data sets and asking myself in what direction to go. Analyzing large sets of data can be tricky to wrap your head around at first, as the data you're exploring can seem formidable and not present a clear path in the beginning. The first step to making this work is to clean your data so that it is easier to work with. I discovered these particular data cleaning techniques to be useful when working on the Module 1 Final Project.
  	 
    I found it was easiest to begin by looking at the head() of each pandas dataframe that I created to get an understanding of what was contained within each data set. I then inspected each dataframe using .info() to learn what type of data was in each row and if any values seemed to be missing based on the number of rows. A simple way to determine how many missing values are contained within each column is to use .sum() in conjunction with .isna() to return a value.
